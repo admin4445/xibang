@@ -1,0 +1,272 @@
+
+        /*头部样式*/
+        .navbar-default{
+                background-color: #ffffff;
+                border: 0px;
+                
+        }
+        .navbar{
+            margin-bottom: 0px;
+        }
+       
+        .navbar-brand img{
+            margin-top: 5px;
+        }
+        .navbar-nav li a{
+            line-height: 50px;
+            height: 80px;
+            font-size: 14px;
+            font-family: "微软雅黑 Regular";
+            color: rgb(0, 0, 0);
+          
+            
+            
+        }
+        .navbar-nav li a:hover{
+            border-bottom: 2px rgb(206, 37, 31) solid;
+            color: rgb(206, 37, 31);
+        }
+        
+        .navbar-nav li{
+            padding:  0px 40px;
+           
+        }
+        /*选项卡*/
+        .xuanxiang a{
+            text-align: center;
+            display: block;
+            height: 50px;
+            line-height: 50px;
+            font-size: 14px;
+            color: black;
+            text-decoration: none;
+           
+           
+            
+
+        }
+        .xuanxiang a span{
+            padding: 10px 0px;
+        }
+        /* .xuanxiang a span:hover{
+                color: rgb(206, 37, 31);
+                border-bottom: 2px rgb(206, 37, 31) solid;
+        } */
+        /*公司*/
+        .brand-title{
+            font-family: "微软雅黑 Regular";
+            font-size: 24px;
+            position: relative;
+            top: -10px;
+            left: 20px;
+        }
+        .brand-conent{
+            font-family: "微软雅黑 Regular";
+            font-size: 14px;
+            position: relative;
+            top: -15px;
+            left: 20px;
+            color: rgb(114, 114, 114);
+            line-height: 25px;
+        }
+       
+        /*团队*/
+        .boxs{
+          
+            margin-bottom: 50px;   
+            transition: all ease-in-out .2s; 
+            cursor: pointer;
+        
+           
+        }
+        
+        .boxs:hover{
+            box-shadow: 2px 0px 10px 1px rgba(0, 0, 0, .2);
+           
+            transform: translateY(-2px);
+            border-radius: 5px;
+        }
+        .renwu p{
+            line-height: 25px;
+        }
+        .renwu-name{
+            font-size: 18px;
+            font-family: "微软雅黑 Regular";
+        }
+        .renwu-desc{
+            font-size: 14px;
+            font-family: "微软雅黑 Regular";
+        }
+        .renwu-content{
+            font-size: 12px;
+            font-family: "微软雅黑 Regular";
+            color: rgb(114, 114, 114);
+           
+        }
+        /*footer*/
+        .footer{
+            background-color: rgb(40, 40, 40);
+            padding: 60px 0px;
+        }
+        .footer p{
+            color:rgb(255, 255, 255)
+        }
+        
+        
+        @media (max-width: 768px) {
+            /*导航栏*/
+            .navbar-brand{
+                padding: 0px 0px;
+            }
+            .navbar-nav li a{
+                line-height: 20px;
+                height: 40px;
+               
+            }
+            .navbar-nav li{
+                 padding:  0px 0px;
+           
+            }
+          
+            .brand-title{
+                font-size: 16px;
+                line-height: 35px;
+                position: relative;
+                left: 10px;
+                top: -20px;
+            }
+            .brand-conent{
+                top: -40px;
+                left: 10px;
+                font-size: 12px;
+                line-height: 25px;
+                padding: 0px;
+            }
+            /**/
+          
+          
+            .footer{
+                padding: 0px;
+            }
+            /**团队*/
+             .renwu{
+                padding: 0 10px;
+            }
+            .ren-img{
+                padding: 15px ;
+            }
+            .renwu-content{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+         
+           
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+             /*小屏幕设备 平板*/
+            .navbar-nav li{
+               padding:  0px 10px;
+            }  
+            
+            /*footer*/
+            .footer{
+                padding: 40px 0px;
+            }
+             /*案列展示*/
+             .brand-title{
+                font-size: 16px;
+                line-height: 35px;
+                position: relative;
+                top: -20px;
+            }
+         
+            .xuanxiang a{
+                font-size: 12px;
+         
+            }
+             /*位置*/
+             .posisions-left{
+                text-align: left;
+                padding-left: 40px;
+            }
+            .lianxi{
+                padding: 0 55px;
+            }
+             /*团队*/
+             .renwu{
+                padding: 0 51px;
+            }
+            .ren-img{
+                padding: 15px ;
+            }
+         
+        }
+
+        @media (min-width: 992px) and (max-width: 1200px) {
+            .navbar-nav li{
+               padding:  0px 25px;
+            }  
+            .brand-title{
+                font-size: 16px;
+                line-height: 35px;
+                position: relative;
+                top: -18px;
+                left: 14px;
+            }
+            .brand-conent{
+                position: relative;
+                top: -18px;
+                left: 14px;
+            }
+             /*位置*/
+             .posisions-left{
+                text-align: left;
+                padding-left: 50px;
+            }
+            .lianxi{
+                padding: 0 65px;
+            }
+
+            /*团队*/
+            .renwu{
+                padding: 0 61px;
+            }
+            .ren-img{
+                padding: 15px ;
+            }
+
+           
+          
+        }
+
+        @media (min-width: 1200px) {
+        /*大屏幕设备 桌面*/
+            .positions{
+              padding-top: 25px;
+              padding-bottom: 30px;
+            }
+            .xuanxiang {
+                padding-bottom: 35px;
+            }
+            .brand{
+                padding: 10px 30px;
+            }
+            /*位置*/
+            .posisions-left{
+                text-align: left;
+                padding-left: 65px;
+            }
+            /*团队*/
+            .lianxi{
+                padding: 0 80px;
+            }
+            .renwu{
+                padding: 0 80px;
+            }
+            .ren-img{
+                padding: 15px ;
+            }
+            
+        }
